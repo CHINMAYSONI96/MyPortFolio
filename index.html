@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheet/style.css">
+
+    <!--BoxIcon Link-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--Javascript type library link-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <!--NavSection starts-->
+    <div id="header">
+        <a href="" id="logo">PortFolio</a>
+
+        <nav id="navbar">
+            <a id="cross-btn" href="javascript:void(0)" onclick="closeMenu()"><i class='bx bx-x-circle'></i></a>
+            <a href="index.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#skill">Skill</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div id="mobile-bar" onclick="openMenu()">
+            <i class='bx bx-menu'></i>
+        </div>
+    </div>
+
+
+    <!--Main content Starts from here-->
+
+    <div id="complete-Content">
+        <!--Home Section Starts-->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, It's Me</h3>
+                <h1>Chinmay Soni</h1>
+                <h3>And I'm a <span id="element"></span></h3>
+                <p>Enthusiastic and motivated web developer with a passion for creating dynamic and visually appealing
+                    websites...</p>
+
+                <div class="home-SocialM">
+                    <a href="https://www.facebook.com/chinmay.soni121" target="_blank"><i
+                            class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/me_soniii/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.linkedin.com/in/chinmaysoni121/" target="_blank"><i
+                            class='bx bxl-linkedin'></i></a>
+                    <a href="https://wa.me/9352049903" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                </div>
+                <a href="./Image/ChinmaySoniResume.pdf" download="ChinmaySoni_Resume" class="btn-box">My Resume</a>
+            </div>
+            <div class="home-img">
+                <img src="./Image/chinmay.png" width="70%" alt="chinmay.png">
+            </div>
+        </section>
+
+
+        <div class="hzLine">
+            <hr>
+        </div>
+        <!--About Section starts-->
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="./Image/chinmay.png" width="420px" alt="chinmay.png">
+            </div>
+            <div class="about-text">
+                <h2>About<span> Me</span></h2>
+                <h4>Frontend Developer !</h4>
+                <p>Hello ! <br>
+                    I'm <span style="color: #0ef;">CHINMAY SONI</span>, and I'm thrilled to embark on my journey as a
+                    fresh and passionate Frontend Web Developer. Ever since I discovered the world of web development,
+                    I've been captivated by the endless possibilities of creating beautiful and user-friendly websites.
+                    I honed my coding skills in HTML, CSS, and JavaScript, and I'm eager to apply them to real-world
+                    projects. My curiosity and commitment to staying up-to-date with the latest industry trends drive my
+                    dedication to continuous learning and growth. I'm excited to collaborate with talented teams, turn
+                    designs into interactive web experiences, and contribute my creativity to building visually
+                    appealing and responsive websites that leave a lasting impression. Let's connect and create
+                    something incredible together!
+                </p>
+                <br><br><br>
+                <a href="#contact" class="btn-box contact">Contact Me...</a>
+            </div>
+        </section>
+
+        <div class="hzLine">
+            <hr>
+        </div>
+        <!--Skills Section starts-->
+        <div id="skill">
+            <div class="skillAbout">
+                <h2>My<span> Skills</span></h2>
+            </div>
+            <div id="skillset">
+                <div class="container1">
+                    <h1 class="heading1">Technical Skills</h1>
+                    <div class="technical-bars">
+                        <div class="bar">
+                            <div class="info"><i class='bx bxl-c-plus-plus' style="color: #6295CB"></i>
+                                &nbsp;<span>C,C++</span>
+                            </div>
+                            <div class="progress-line Clang">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar">
+                            <div class="info"><i class='bx bxl-html5' style="color: #c95d2e;"></i>
+                                &nbsp;<span>HTML</span>
+                            </div>
+                            <div class="progress-line html">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar">
+                            <div class="info"><i class='bx bxl-css3' style="color: #147bbc;"></i>
+                                &nbsp;<span>CSS</span>
+                            </div>
+                            <div class="progress-line CSS">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar">
+                            <div class="info"><i class='bx bxl-javascript' style="color: #b0bc1e;"></i>
+                                &nbsp;<span>JavaScript</span>
+                            </div>
+                            <div class="progress-line JavaScript">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar">
+                            <div class="info"><i class='bx bxl-bootstrap' style="color: #7411F6;"></i>
+                                &nbsp;<span>Bootstrap</span>
+                            </div>
+                            <div class="progress-line Bootstrap">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar">
+                            <div class="info"><img src="./Image/ps.png" width="23"
+                                    style="border: 2px solid #6295CB; border-radius: 20%;">
+                                &nbsp;<span>Photoshop</span>
+                            </div>
+                            <div class="progress-line Photoshop">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container1 ProfesionalSkill">
+                    <h1 class="heading1 prof">Professional Skill</h1>
+                    <div class="radial-bars">
+                        <div class="radial-bar">
+
+                            <svg x="0px" y="0px" viewbox="0 0 200 200">
+
+                                <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">90%</div>
+                            <div class="text">Problem-Solving</div>
+                        </div>
+
+                        <div class="radial-bar">
+
+                            <svg x="0px" y="0px" viewbox="0 0 200 200">
+
+                                <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">85%</div>
+                            <div class="text">Creativity</div>
+                        </div>
+
+                        <div class="radial-bar">
+
+                            <svg x="0px" y="0px" viewbox="0 0 200 200">
+
+                                <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">70%</div>
+                            <div class="text">Team Work</div>
+                        </div>
+
+                        <div class="radial-bar">
+
+                            <svg x="0px" y="0px" viewbox="0 0 200 200">
+
+                                <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">90%</div>
+                            <div class="text">Professionalism</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hzLine">
+            <hr>
+        </div>
+        <!--Contact section starts-->
+        <section>
+            <div class="contactArea">
+                <div class="contactDetail">
+                    <h2>Contact<span> Me</span></h2>
+                    <h4>Collaborate with Me.</h4>
+                    <p>I believe in the power of collaboration and meaningful connections. If you're interested in
+                        discussing a potential project, exploring a partnership, or simply want to share ideas, I'm all
+                        ears. Your feedback and insights are invaluable to me, and I'm excited to hear from you.
+
+                        Feel free to connect with me using any of the methods below:</p>
+                    <div class="cont"><i class='bx bxs-contact' undefined></i><span> Schinmay121@gmail.com</span></div>
+                    <div class="cont"><i class='bx bxs-phone-call'></i><span> +91-9352049903</span></div>
+
+                    <div class="home-SocialM" style="padding-left: 42px;">
+                        <a href="https://www.facebook.com/chinmay.soni121" target="_blank"><i
+                                class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/me_soniii/" target="_blank"><i
+                                class='bx bxl-instagram'></i></a>
+                        <a href="https://www.linkedin.com/in/chinmaysoni121/" target="_blank"><i
+                                class='bx bxl-linkedin'></i></a>
+                        <a href="https://wa.me/9352049903" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                    </div>
+                </div>
+                <div class="contactForm" id="contact">
+                    <form action="">
+                        <input type="text" placeholder="Enter Full Name" required>
+                        <input type="email" placeholder="Enter Your Email" required>
+                        <input type="text" placeholder="Enter Your Subject">
+                        <textarea name="" rows="12" cols="40" placeholder="Enter Your Message"></textarea>
+                        <br><br>
+                        <button class="btn-box">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--Footer Section starts-->
+        <div class="footer">
+            <p class="footer-text">Copyright &copy; 2023 Chinmay Soni</p>
+        </div>
+    </div>
+
+    <!--Script-->
+    <script src="./Script/script.js"></script>
+</body>
+
+</html>
